@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is best website for Shoes">
+    <meta name="keywords" content="best shoes under 500 ,">
+    <title>FootWear </title>
+    <link rel="icon" href="./images/house.png">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <style>
+        /* body {
+            background: green;
+        } */
+        p {
+            background: blue;
+        }
+
+        a {
+            background: yellow;
+        }
+
+        img {
+            display: block;
+        }
+    </style>
+    <!-- style element  -->
+    <script>
+        document.write("Hello from script tag")
+    </script>
+</head>
+
+<body>
+    <p>Lorem i alias, ex no ptate dolorum nobis delectus?</p>
+    <pre> Lorem ipsum dolor sit amet.</pre>
+
+    <h6>Heading 6 </h6>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+
+    <!-- this image is taken from pixels -->
+    <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compres&cs=tinysrgb&w=600"
+        alt="Item image" width="100px" height="100px">
+    <img src="./images/img/house.png" alt="Item image" width="100px" height="100px">
+
+    <a href="https://www.pexels.com/" target="_blank"> Click here / blank </a> <br>
+    <hr>
+
+    <p>Lorem ipsum <span style="color:white">dolor</span> <img src="./images/img/house.png" alt="Item image"
+            width="10px" height="10px"> sit amet.</p>
+
+    <!--  hyper link refrence -->
+    <!-- anchor tag  for appling link  -->
+
+    <!-- alternate text, 
+        src =  source -->
+    <!-- === single tag  -->
+    <!-- id ,class ,style ,title -->
+
+    <!-- list tags  -->
+    <!-- ol = order list  
+      ul = unorder list  -->
+    <ol type="I">
+        <!-- 1 ,A ,a,I,i -->
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+    </ol>
+    <ul type="square">
+        <!-- disc , circle , square-->
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+    </ul>
+
+
+    <table border width="50%" cellpadding="50px">
+        <thead>
+            <tr>
+                <th>S.no</th>
+                <th>Name</th>
+                <th colspan="2">Orderid</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Raj</td>
+                <td>122434</td>
+                <td>122434</td>
+                <td>30000</td>
+            </tr>
+            <tr>
+                <td>Rajesh</td>
+                <td>522434</td>
+                <td>522434</td>
+                <td>70000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>naman</td>
+                <td>522434</td>
+                <td>522434</td>
+                <td>20000</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Registration Form</legend>
+            <label for="user">User Name</label> <br>
+            <input type="text" id="user" placeholder="Enter your username" value="xyz@123">
+            <br>
+            <br>
+            <label for="phonenumber">Mobile Number</label> <br>
+            <input type="number" id="phonenumber" placeholder="Enter your Mobile Number">
+            <br>
+            <br>
+            <label for="DOB">DOB</label> <br>
+            <input type="date" id="DOB" placeholder="Enter your DOB">
+
+
+            <!-- 
+            text ,number ,password ,email ,search ,file ,color 
+            , date ,datetime,datetime-local ,time , tel ,
+            checkbox ,radio , submit ,reset , image ,,button  -->
+            <br> <br>
+            <input type="file">
+            <input type="color" name="" id="">
+            <input type="tel">
+
+            <br>
+            <input type="password">
+            <br>
+            <input type="submit" value="subscribe">
+            <br>
+            <input type="reset" value="refresh">
+            <br>
+            <input type="checkbox" id="checkbox1" value="first condition">
+            <label for="checkbox1">First condition</label>
+            <br>
+            <br>
+            <input type="checkbox" id="checkbox2" value="second condition">
+            <label for="checkbox2">second condition</label>
+            <br>
+            <label for="">Gender</label>
+            <input type="radio" id="radio1" name="gender" value="male"> male
+            <input type="radio" id="radio2" name="gender" value="female"> female
+            <input type="radio" id="other" name="gender" value="female"> other
+
+            <br>
+            <br>
+            <label for="country">Country</label>
+            <select name="" id="country">
+                <option value="+91">india</option>
+                <option value="+1" selected>USA</option>
+                <option value="UK">UK</option>
+                <option value="africa">africa</option>
+            </select>
+        </fieldset>
+    </form>
+    <button>hello</button>
+    <!-- <form>
+        <fieldset>
+            <legend>Registration Form</legend>
+            
+
+        </fieldset>
+    </form> -->
+
+</body>
+
+</html>
